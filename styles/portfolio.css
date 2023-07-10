@@ -57,12 +57,21 @@ nav ul li button {
 
 .header {
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 585px;
+
 }
 
 .btn1 {
@@ -88,4 +97,88 @@ nav ul li button {
 
 .banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+.banner-tittle {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-top: -45px;
+}
+
+.banner-description {
+    /* padding: 20px 0px 30px 0px; */
+    margin-top: -30px;
+    margin-bottom: 25px;
+}
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0 130px;
+    padding-bottom: 130px;
+    background-color: #FFF8F3;
+    box-sizing: border-box;
+
+}
+
+/* About section style */
+
+.about-section {
+    background-color: #FFF8F3;
+    text-align: center;
+
+}
+
+.section-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 130px;
+    padding-bottom: 30px;
+
+}
+
+.section-description {
+    max-width: 827px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-tittle {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description{
+    color: #000;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: -21px;
 }
