@@ -239,3 +239,68 @@ main .about {
     font-weight: 400;
     line-height: 28px;
 }
+
+/* resume section style */
+
+.edu-ex {
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.edu-resume {
+    padding: 15px;
+}
+
+.myedu {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.edu-tittle {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+.edu-ins {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -18px;
+}
+
+.edu-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 45px;
+    margin-top: -10px;
+}
+
+.edu-resume hr{
+    margin: 21px 0px;
+}
+
+/* cv button section */
+
+.cvbtn{
+    text-align: center;
+    padding: 40px 0 100px 0 ;
+}
+
+.cvbtn button{
+    color: #fff;
+    background-color: #FD6E0A;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 35px;
+    border-radius: 5px;
+    border: 0;
+}
