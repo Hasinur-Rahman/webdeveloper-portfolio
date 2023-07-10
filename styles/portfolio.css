@@ -121,15 +121,23 @@ nav ul li button {
 }
 
 /* main section style */
-main {
+/* main {
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 130px;
     padding: 0 130px;
-    padding-bottom: 130px;
     background-color: #FFF8F3;
     box-sizing: border-box;
 
+} */
+
+main .about {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0 130px;
+    background-color: #FFF8F3;
+    box-sizing: border-box;
 }
 
 /* About section style */
@@ -137,6 +145,7 @@ main {
 .about-section {
     background-color: #FFF8F3;
     text-align: center;
+
 
 }
 
@@ -164,6 +173,8 @@ main {
 .about-info-container {
     display: flex;
     justify-content: space-around;
+    background-color: #FFF8F3;
+    padding-bottom: 100px;
 }
 
 .about-info {
@@ -176,9 +187,55 @@ main {
     font-weight: 400;
 }
 
-.info-description{
+.info-description {
     color: #000;
     font-size: 20px;
     font-weight: 550;
     margin-top: -21px;
+}
+
+
+/* what I do section style */
+#whatidodescription {
+    max-width: 900px;
+}
+
+/* Skills section style */
+
+.myskills {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.mrsk {
+    margin-right: 15px;
+}
+
+.skill {
+    background-color: #fff;
+    box-shadow: 1px 1px 25px rgb(214, 210, 210);
+}
+
+.skill img {
+    margin: 30px 0 0 27px;
+}
+
+.skill h4 {
+    margin: 30px 0 20px 28px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill p {
+    padding: 28px;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
