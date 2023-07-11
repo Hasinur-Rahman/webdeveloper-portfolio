@@ -265,6 +265,7 @@ main .about {
     font-size: 25px;
     font-weight: 700;
 }
+
 .edu-ins {
     color: #757575;
     font-family: Open Sans;
@@ -283,18 +284,18 @@ main .about {
     margin-top: -10px;
 }
 
-.edu-resume hr{
+.edu-resume hr {
     margin: 21px 0px;
 }
 
 /* cv button section */
 
-.cvbtn{
+.cvbtn {
     text-align: center;
-    padding: 40px 0 100px 0 ;
+    padding: 40px 0 100px 0;
 }
 
-.cvbtn button{
+.cvbtn button {
     color: #fff;
     background-color: #FD6E0A;
     font-family: Open Sans;
@@ -303,4 +304,69 @@ main .about {
     padding: 17px 35px;
     border-radius: 5px;
     border: 0;
+}
+
+/* footer section style */
+
+
+footer {
+    background-color: #FFF8F3;
+
+}
+
+.footersec {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+
+.footersec h3 {
+    text-align: left;
+}
+
+.connect p {
+    text-align: left;
+    max-width: 565px;
+}
+
+.connect a img {
+    width: 24px;
+    height: 24px;
+    margin: 15px 10px 0 0;
+}
+
+
+.mssg input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mssg input[type="text"],
+.mssg input[type="email"],
+textarea {
+    width: 130%;
+    border: 0;
+    border-radius: 10px;
+    padding: 18px 30px;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.mssg input[type="submit"] {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 38px;
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin-bottom: 100px;
 }
